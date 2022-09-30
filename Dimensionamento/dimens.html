@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensionamento</title>
+    <link rel="stylesheet" href="dimens.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="logo">Dimensionamento de resistores (LED)</a>
+
+            <ul class="nav-list">
+                <li><a href="..\Pagina Principal\index.html">Pagina Principal</a></li>
+                <li><a href="..\Associação (serie)\associacao.html">Associação de resistores (Série)</a></li>
+                <li><a href="..\Associação (paralelo)\associacaop.html">Associação de resistores (Paralelo)</a></li>
+                <li><a href="..\Identificação\identfic3.html">Identificação de resistores(3 Faixas)</a>
+                <li><a href="..\Identificação\identfic5.html">Identificação de resistores(5 Faixas)</a></li>
+                <li><a href="..\Identificação\identfic4.html">Identificação de resistores(4 Faixas)</a></li>
+                <li><a href="..\Identificação\identfic6.html">Identificação de resistores(6 Faixas)</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <center><img src="tabela-leds.jpg" width="400"></center>
+
+    <p class="paragrafo">
+        Tensão da fonte:
+        <input type="number" class="tensao1">V
+    </p>
+    <p class="paragrafo">
+        Tensão suportada pelo LED:
+        <input type="number" class="tensao2">V
+    </p>
+    <p class="paragrafo">
+        Corrente suportada pelo LED:
+        <input type="number" class="corrente">mA
+    </p>
+    <p class="paragrafo">
+        <input type="button" class="botao" value="Calcular">
+    </p>
+
+    <h3 class="saida"></h3>
+
+
+    <script src="dimens.js"></script>
+
+</body>
+
+</html>

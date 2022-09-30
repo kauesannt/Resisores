@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação</title>
+    <link rel="stylesheet" href="identfic6.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo">Identificação de resistores(6 faixas)</a>
+            <ul class="nav-list">
+                <li><a href="..\Pagina Principal\index.html">Pagina Principal</a></li>
+                <li><a href="..\Associação (serie)\associacao.html">Associação de resistores (Série)</a></li>
+                <li><a href="..\Associação (paralelo)\associacaop.html">Associação de resistores (Paralelo)</a></li>
+                <li><a href="..\Dimensionamento\dimens.html">Dimensionamento de resistores (LED)</a></li>
+                <li><a href="..\Identificação\identfic3.html">Identificação de resistores(3 Faixas)</a>
+                <li><a href="..\Identificação\identfic4.html">Identificação de resistores(4 Faixas)</a></li>
+                <li><a href="..\Identificação\identfic5.html">Identificação de resistores(5 Faixas)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <p class="paragrafo">Exemplo de resistor de 6 faixas/anéis</p>
+
+    <center><img src="6faixa.png" width="400"></center>
+
+    <p class="paragrafo">
+        <label for="faixa1">1° Faixa:</label>
+        <select id="faixa1" >
+            <option value="0">Preto (0)</a></option>
+            <option value="1">Marrom (1)</option>
+            <option value="2">Vermelho (2)</option>
+            <option value="3">Laranja (3)</option>
+            <option value="4">Amarelo (4)</option>
+            <option value="5">Verde (5)</option>
+            <option value="6">Azul (6)</option>
+            <option value="7">Violeta (7)</option>
+            <option value="8">Cinza (8)</option>
+            <option value="9">Branco (9)</option>
+        </select>
+
+        <label for="faixa2">2° Faixa:</label>
+        <select id="faixa2">
+            <option value="0">Preto (0)</option>
+            <option value="1">Marrom (1)</option>
+            <option value="2">Vermelho (2)</option>
+            <option value="3">Laranja (3)</option>
+            <option value="4">Amarelo (4)</option>
+            <option value="5">Verde (5)</option>
+            <option value="6">Azul (6)</option>
+            <option value="7">Violeta (7)</option>
+            <option value="8">Cinza (8)</option>
+            <option value="9">Branco (9)</option>
+        </select>
+
+        <label for="faixa3">3° Faixa:</label>
+        <select id="faixa3">
+            <option value="0">Preto (0)</option>
+            <option value="1">Marrom (1)</option>
+            <option value="2">Vermelho (2)</option>
+            <option value="3">Laranja (3)</option>
+            <option value="4">Amarelo (4)</option>
+            <option value="5">Verde (5)</option>
+            <option value="6">Azul (6)</option>
+            <option value="7">Violeta (7)</option>
+            <option value="8">Cinza (8)</option>
+            <option value="9">Branco (9)</option>
+        </select>
+
+        <label for="faixa4">Multiplicador:</label>
+        <select id="faixa4">
+            <option value="0.01">Prata (x0.01Ω)</option>
+            <option value="0.1">Ouro (x0.1Ω)</option>
+            <option value="1">Preto (x1Ω)</option>
+            <option value="10">Marrom (x10Ω)</option>
+            <option value="100">Vermelho (x100Ω)</option>
+            <option value="1000">Laranja (x1KΩ)</option>
+            <option value="10000">Amarelo (x10KΩ)</option>
+            <option value="100000">Verde (x100KΩ)</option>
+            <option value="1000000">Azul (x1MΩ)</option>
+            <option value="10000000">Violeta (x10MΩ)</option>
+        </select>
+
+        <label for="faixa5">Tolerancia:</label>
+        <select id="faixa5">
+            <option value="±10%" >Prata (±10%)</option>
+            <option value="±5%" >Ouro (±5%)</option>
+            <option value="±1%" >Marrom (±1%)</option>
+            <option value="±2%" >Vermelho (±2%)</option>
+            <option value="±0.5%" >Verde (±0.5%)</option>
+            <option value="±0.25%" >Azul (±0.25%)</option>
+            <option value="±0.1%" >Violeta (±0.1%)</option>
+        </select>
+
+        <label for="faixa6">Coeficiente de temperatura:</label>
+        <select id="faixa6">
+            <option value="100 PPM/ºC">Marrom (100 PPM/ºC)</option>
+            <option value="50 PPM/ºC">Vermelho (50 PPM/ºC)</option>
+            <option value="15 PPM/ºC">Laranja (15 PPM/ºC)</option>
+            <option value="25 PPM/ºC">Amarelo (25 PPM/ºC)</option>
+            <option value="10 PPM/ºC">Azul (10 PPM/ºC)</option>
+            <option value="5 PPM/ºC">Violeta (5 PPM/ºC)</option>
+        </select>
+
+    </p>
+
+    <center><input type="button" value="Exibir" id="exibir"></center>
+
+  
+
+   <center><h3 id="saida"></h3></center> 
+
+    <script src="identfic6.js"></script>
+
+
+
+
+
+</body>
+
+</html>
